@@ -1,0 +1,20 @@
+# =========================================================================
+# Plantilla de configuracion de conexion a la base de datos MySQL en la nube
+# =========================================================================
+# Copiar este archivo como "application.properties" (mismo directorio)
+# y completar con las credenciales reales del servicio en la nube elegido
+# (AWS RDS, Google Cloud SQL, Azure Database for MySQL, PlanetScale, etc).
+#
+# "application.properties" esta excluido de git (.gitignore) para no
+# exponer credenciales en el repositorio.
+# =========================================================================
+
+db.host=tu-host-en-la-nube.example.com
+db.port=3306
+db.name=rapidexpress_db
+db.user=tu_usuario
+db.password=tu_password
+db.useSSL=true
+
+# Ruta del archivo de auditoria (texto plano), relativa a la raiz del proyecto
+audit.file.path=./audit-log.txt

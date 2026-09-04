@@ -26,7 +26,7 @@ manual por un sistema centralizado que permita:
   operaciones críticas del sistema en un archivo de texto centralizado.
 
 El sistema se opera exclusivamente desde una interfaz de línea de
-comandos (CLI), sin interfaz gráfica.
+comandos (CLI), sin interfaz gráfica..
 
 ## Tecnologías Utilizadas
 
